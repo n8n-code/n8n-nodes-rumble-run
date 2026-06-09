@@ -693,7 +693,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parent Id",
+			"displayName": "Parent ID",
 			"name": "parent_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -829,7 +829,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Agent Id",
+			"displayName": "Agent ID",
 			"name": "agent_id",
 			"required": true,
 			"description": "UUID of the agent to remove",
@@ -891,7 +891,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Agent Id",
+			"displayName": "Agent ID",
 			"name": "agent_id",
 			"required": true,
 			"description": "UUID of the agent",
@@ -953,7 +953,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Agent Id",
+			"displayName": "Agent ID",
 			"name": "agent_id",
 			"required": true,
 			"description": "UUID of the agent to update",
@@ -972,7 +972,7 @@ export const organizationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -1040,7 +1040,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Agent Id",
+			"displayName": "Agent ID",
 			"name": "agent_id",
 			"required": true,
 			"description": "UUID of the agent to update",
@@ -1334,7 +1334,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Asset Id",
+			"displayName": "Asset ID",
 			"name": "asset_id",
 			"required": true,
 			"description": "UUID of the asset to remove",
@@ -1396,7 +1396,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Asset Id",
+			"displayName": "Asset ID",
 			"name": "asset_id",
 			"required": true,
 			"description": "UUID of the asset to retrieve",
@@ -1458,7 +1458,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Asset Id",
+			"displayName": "Asset ID",
 			"name": "asset_id",
 			"required": true,
 			"description": "UUID of the asset to update",
@@ -1545,7 +1545,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Asset Id",
+			"displayName": "Asset ID",
 			"name": "asset_id",
 			"required": true,
 			"description": "UUID of the asset to update",
@@ -1833,7 +1833,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Service Id",
+			"displayName": "Service ID",
 			"name": "service_id",
 			"required": true,
 			"description": "UUID of the service to remove",
@@ -1895,7 +1895,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Service Id",
+			"displayName": "Service ID",
 			"name": "service_id",
 			"required": true,
 			"description": "UUID of the service to retrieve",
@@ -2142,7 +2142,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"required": true,
 			"description": "UUID or name of the site to remove",
@@ -2204,7 +2204,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"required": true,
 			"description": "UUID or name of the site",
@@ -2266,7 +2266,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"required": true,
 			"description": "UUID or name of the site to update",
@@ -2425,7 +2425,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"required": true,
 			"description": "UUID or name of the site to import scan data into",
@@ -2503,7 +2503,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"required": true,
 			"description": "UUID or name of the site to import Nessus scan data into",
@@ -2581,7 +2581,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"required": true,
 			"description": "UUID or name of the site to scan",
@@ -2753,7 +2753,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Task Id",
+			"displayName": "Task ID",
 			"name": "task_id",
 			"required": true,
 			"description": "UUID of the task to retrieve",
@@ -2815,7 +2815,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Task Id",
+			"displayName": "Task ID",
 			"name": "task_id",
 			"required": true,
 			"description": "UUID of the task to update",
@@ -2833,7 +2833,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Agent Id",
+			"displayName": "Agent ID",
 			"name": "agent_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -2857,7 +2857,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "client_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -2929,7 +2929,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Created By User Id",
+			"displayName": "Created By User ID",
 			"name": "created_by_user_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -2953,7 +2953,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Cruncher Id",
+			"displayName": "Cruncher ID",
 			"name": "cruncher_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3050,7 +3050,7 @@ export const organizationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3098,7 +3098,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Organization Id",
+			"displayName": "Organization ID",
 			"name": "organization_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3146,7 +3146,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parent Id",
+			"displayName": "Parent ID",
 			"name": "parent_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3242,7 +3242,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Recur Last Task Id",
+			"displayName": "Recur Last Task ID",
 			"name": "recur_last_task_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3290,7 +3290,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3386,7 +3386,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "template_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3502,7 +3502,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Task Id",
+			"displayName": "Task ID",
 			"name": "task_id",
 			"required": true,
 			"description": "UUID of the task",
@@ -3564,7 +3564,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Task Id",
+			"displayName": "Task ID",
 			"name": "task_id",
 			"required": true,
 			"description": "UUID of the task",
@@ -3626,7 +3626,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Task Id",
+			"displayName": "Task ID",
 			"name": "task_id",
 			"required": true,
 			"description": "UUID of the task to hide",
@@ -3688,7 +3688,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Task Id",
+			"displayName": "Task ID",
 			"name": "task_id",
 			"required": true,
 			"description": "UUID of the task",
@@ -3750,7 +3750,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Task Id",
+			"displayName": "Task ID",
 			"name": "task_id",
 			"required": true,
 			"description": "UUID of the task to stop",
@@ -3881,7 +3881,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Wireless Id",
+			"displayName": "Wireless ID",
 			"name": "wireless_id",
 			"required": true,
 			"description": "UUID of the wireless LAN to remove",
@@ -3943,7 +3943,7 @@ export const organizationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Wireless Id",
+			"displayName": "Wireless ID",
 			"name": "wireless_id",
 			"required": true,
 			"description": "UUID of the wireless LAN to retrieve",

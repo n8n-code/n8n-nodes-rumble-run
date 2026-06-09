@@ -9,14 +9,14 @@ import { publicDescription } from './resources/public';
 
 export class RumbleRun implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'rumble-run',
+		displayName: 'Rumble Run',
 		name: 'N8nDevRumbleRun',
 		icon: { light: 'file:./rumble-run.svg', dark: 'file:./rumble-run.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Rumble Network Discovery is now runZero. Read the announcement. This API is frozen and no longer being update..',
-		defaults: { name: 'rumble-run' },
+		defaults: { name: 'Rumble Run' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

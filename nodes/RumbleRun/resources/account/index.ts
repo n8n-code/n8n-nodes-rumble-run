@@ -856,11 +856,11 @@ export const accountDescription: INodeProperties[] = [
 			"default": "miradore_api_key_v1",
 			"options": [
 				{
-					"name": "Miradore Api Key V 1",
+					"name": "Miradore API Key v1",
 					"value": "miradore_api_key_v1"
 				},
 				{
-					"name": "Aws Access Secret",
+					"name": "AWS Access Secret",
 					"value": "aws_access_secret"
 				}
 			],
@@ -928,7 +928,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Credential Id",
+			"displayName": "Credential ID",
 			"name": "credential_id",
 			"required": true,
 			"description": "UUID of the credential to delete",
@@ -990,7 +990,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Credential Id",
+			"displayName": "Credential ID",
 			"name": "credential_id",
 			"required": true,
 			"description": "UUID of the credential to retrieve",
@@ -1496,7 +1496,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -1792,7 +1792,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Organization Id",
+			"displayName": "Organization ID",
 			"name": "organization_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -1860,7 +1860,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Key Id",
+			"displayName": "Key ID",
 			"name": "key_id",
 			"required": true,
 			"description": "UUID of the key to retrieve",
@@ -1922,7 +1922,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Key Id",
+			"displayName": "Key ID",
 			"name": "key_id",
 			"required": true,
 			"description": "UUID of the key to retrieve",
@@ -1984,7 +1984,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Key Id",
+			"displayName": "Key ID",
 			"name": "key_id",
 			"required": true,
 			"description": "UUID of the key to retrieve",
@@ -2303,7 +2303,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parent Id",
+			"displayName": "Parent ID",
 			"name": "parent_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -2395,7 +2395,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Org Id",
+			"displayName": "Org ID",
 			"name": "org_id",
 			"required": true,
 			"description": "UUID of the organization to retrieve",
@@ -2457,7 +2457,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Org Id",
+			"displayName": "Org ID",
 			"name": "org_id",
 			"required": true,
 			"description": "UUID of the organization to retrieve",
@@ -2519,7 +2519,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Org Id",
+			"displayName": "Org ID",
 			"name": "org_id",
 			"required": true,
 			"description": "UUID of the organization to retrieve",
@@ -2681,7 +2681,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parent Id",
+			"displayName": "Parent ID",
 			"name": "parent_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -2773,7 +2773,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Org Id",
+			"displayName": "Org ID",
 			"name": "org_id",
 			"required": true,
 			"description": "UUID of the organization to retrieve",
@@ -2835,7 +2835,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Org Id",
+			"displayName": "Org ID",
 			"name": "org_id",
 			"required": true,
 			"description": "UUID of the organization to retrieve",
@@ -3083,7 +3083,7 @@ export const accountDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "group_id",
 			"type": "string",
 			"default": "2b096711-4d28-4417-8635-64af4f62c1ae",
@@ -3132,7 +3132,7 @@ export const accountDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "f6cfb91a-52ea-4a86-bf9a-5a891a26f52b",
@@ -3347,7 +3347,7 @@ export const accountDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "group_id",
 			"type": "string",
 			"default": "2b096711-4d28-4417-8635-64af4f62c1ae",
@@ -3396,7 +3396,7 @@ export const accountDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "f6cfb91a-52ea-4a86-bf9a-5a891a26f52b",
@@ -3956,7 +3956,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Agent Id",
+			"displayName": "Agent ID",
 			"name": "agent_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -3980,7 +3980,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "client_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4052,7 +4052,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Created By User Id",
+			"displayName": "Created By User ID",
 			"name": "created_by_user_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4076,7 +4076,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Cruncher Id",
+			"displayName": "Cruncher ID",
 			"name": "cruncher_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4221,7 +4221,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Hosted Zone Id",
+			"displayName": "Hosted Zone ID",
 			"name": "hosted_zone_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4246,7 +4246,7 @@ export const accountDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4318,7 +4318,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Organization Id",
+			"displayName": "Organization ID",
 			"name": "organization_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4366,7 +4366,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parent Id",
+			"displayName": "Parent ID",
 			"name": "parent_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4462,7 +4462,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Recur Last Task Id",
+			"displayName": "Recur Last Task ID",
 			"name": "recur_last_task_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4510,7 +4510,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "site_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4606,7 +4606,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "source_id",
 			"type": "string",
 			"default": "1",
@@ -4702,7 +4702,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "template_id",
 			"type": "string",
 			"default": "e77602e0-3fb8-4734-aef9-fbc6fdcb0fa8",
@@ -4818,7 +4818,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Scan Template Id",
+			"displayName": "Scan Template ID",
 			"name": "scan_template_id",
 			"required": true,
 			"description": "UUID of the scan template to remove",
@@ -4880,7 +4880,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Scan Template Id",
+			"displayName": "Scan Template ID",
 			"name": "scan_template_id",
 			"required": true,
 			"description": "UUID of the scan template to retrieve",
@@ -5410,7 +5410,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
 			"description": "UUID of the user to delete",
@@ -5472,7 +5472,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
 			"description": "UUID of the user to retrieve",
@@ -5534,7 +5534,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
 			"description": "UUID of the user to retrieve",
@@ -5740,7 +5740,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
 			"description": "UUID of the user to retrieve",
@@ -5802,7 +5802,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
 			"description": "UUID of the user to retrieve",
@@ -5864,7 +5864,7 @@ export const accountDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
 			"description": "UUID of the user to retrieve",

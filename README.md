@@ -53,15 +53,163 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Account | Get all agents across all organizations, Get all account credentials, Put create a new credential, Delete remove this credential, Get credential details, Get system event log as json, Get system event log as json linedelimited, Get all groups, Post create a new group, Put update an existing group, Delete remove this group, Get group details, Get all active api keys, Put create a new key, Delete remove this key, Get key details, Patch rotates the key secret, Get license details, Get all organization details, Put create a new organization, Delete remove this organization, Get organization details, Patch update organization details, Delete removes the export token from the specified organization, Patch rotates the organization export token and returns the updated organization, Get all sites details across all organizations, Get all sso group mappings, Post create a new sso group mapping, Put update an existing sso group mapping, Delete remove this sso group mapping, Get sso group mapping details, Get all task details across all organizations up to 1000, Get all scan templates across all organizations up to 1000, Post create a new scan template, Put update scan template, Delete remove scan template, Get scan template details, Get all users, Put create a new user account, Put create a new user account and send an email invite, Delete remove this user, Get user details, Patch update a users details, Patch resets the users lockout status, Patch resets the users mfa tokens, Patch sends the user a password reset email |
-| Cisco SNTC | Get cisco serial number and model name export for cisco smart net total care service |
-| Export | Get asset inventory as csv, Get exports the asset inventory, Get asset inventory as json linedelimited, Get asset inventory as nmapstyle xml, Get service inventory as csv, Get service inventory as json, Get service inventory as json linedelimited, Get site list as csv, Get export all sites, Get site list as json linedelimited, Get wireless inventory as csv, Get wireless inventory as json, Get wireless inventory as json linedelimited, Get top asset hardware products as csv, Get top asset operating systems as csv, Get top asset tags as csv, Get top asset types as csv, Get subnet utilization statistics as as csv, Get top service products as csv, Get top service protocols as csv, Get top tcp services as csv, Get top udp services as csv |
-| Service Now | Get export an asset inventory as csv for servicenow integration, Get exports the asset inventory as json, Get export a service inventory as csv for servicenow integration |
-| Splunk | Get exports the asset inventory in a syncfriendly manner using createdat as a checkpoint requires the splunk entitlement, Get exports the asset inventory in a syncfriendly manner using updatedat as a checkpoint requires the splunk entitlement |
-| Organization | Get organization details, Patch update organization details, Get all agents, Delete remove and uninstall an agent, Get details for a single agent, Patch update the site associated with agent, Post force an agent to update and restart, Get all assets, Post clear all tags across multiple assets based on a search query, Patch update tags across multiple assets based on a search query, Delete remove an asset, Get asset details, Patch update asset comments, Patch update asset tags, Delete remove the current api key, Get api key details, Patch rotate the api key secret and return the updated key, Get all services, Delete remove a service, Get service details, Get all sites, Put create a new site, Delete remove a site and associated assets, Get site details, Patch update a site definition, Put import a scan data file into a site, Put import a nessus scan data file into a site, Put create a scan task for a given site, Get all tasks last 1000, Get task details, Patch update task parameters, Get returns a temporary task change report data url, Get returns a temporary task scan data url, Post signal that a completed task should be hidden, Get returns a temporary task log data url, Post signal that a task should be stopped or canceledthis will also remove recurring and scheduled tasks, Get all wireless lans, Delete remove a wireless lan, Get wireless lan details |
-| Public | Get returns latest agent version, Get returns latest platform version, Get returns latest scanner version |
+<details>
+<summary><b>Account</b> (46 operations)</summary>
+
+- Get all agents across all organizations
+- Get all account credentials
+- Put Create a new credential
+- Delete Remove this credential
+- Get credential details
+- Get System event log as JSON
+- Get System event log as JSON line delimited
+- Get all groups
+- Post Create a new group
+- Put Update an existing group
+- Delete Remove this group
+- Get group details
+- Get all active API keys
+- Put Create a new key
+- Delete Remove this key
+- Get key details
+- Patch Rotates the key secret
+- Get license details
+- Get all organization details
+- Put Create a new organization
+- Delete Remove this organization
+- Get organization details
+- Patch Update organization details
+- Delete Removes the export token from the specified organization
+- Patch Rotates the organization export token and returns the updated organization
+- Get all sites details across all organizations
+- Get all SSO group mappings
+- Post Create a new SSO group mapping
+- Put Update an existing SSO group mapping
+- Delete Remove this SSO group mapping
+- Get SSO group mapping details
+- Get all task details across all organizations up to 1000
+- Get all scan templates across all organizations up to 1000
+- Post Create a new scan template
+- Put Update scan template
+- Delete Remove scan template
+- Get scan template details
+- Get all users
+- Put Create a new user account
+- Put Create a new user account and send an email invite
+- Delete Remove this user
+- Get user details
+- Patch Update a user s details
+- Patch Resets the user s lockout status
+- Patch Resets the user s MFA tokens
+- Patch Sends the user a password reset email
+
+</details>
+
+<details>
+<summary><b>Cisco SNTC</b> (1 operations)</summary>
+
+- Get Cisco serial number and model name export for Cisco Smart Net Total Care Service
+
+</details>
+
+<details>
+<summary><b>Export</b> (22 operations)</summary>
+
+- Get Asset inventory as CSV
+- Get Exports the asset inventory
+- Get Asset inventory as JSON line delimited
+- Get Asset inventory as Nmap style XML
+- Get Service inventory as CSV
+- Get Service inventory as JSON
+- Get Service inventory as JSON line delimited
+- Get Site list as CSV
+- Get Export all sites
+- Get Site list as JSON line delimited
+- Get Wireless inventory as CSV
+- Get Wireless inventory as JSON
+- Get Wireless inventory as JSON line delimited
+- Get Top asset hardware products as CSV
+- Get Top asset operating systems as CSV
+- Get Top asset tags as CSV
+- Get Top asset types as CSV
+- Get Subnet utilization statistics as as CSV
+- Get Top service products as CSV
+- Get Top service protocols as CSV
+- Get Top TCP services as CSV
+- Get Top UDP services as CSV
+
+</details>
+
+<details>
+<summary><b>Service Now</b> (3 operations)</summary>
+
+- Get Export an asset inventory as CSV for ServiceNow integration
+- Get Exports the asset inventory as JSON
+- Get Export a service inventory as CSV for ServiceNow integration
+
+</details>
+
+<details>
+<summary><b>Splunk</b> (2 operations)</summary>
+
+- Get Exports the asset inventory in a sync friendly manner using created at as a checkpoint Requires the Splunk entitlement
+- Get Exports the asset inventory in a sync friendly manner using updated at as a checkpoint Requires the Splunk entitlement
+
+</details>
+
+<details>
+<summary><b>Organization</b> (39 operations)</summary>
+
+- Get organization details
+- Patch Update organization details
+- Get all agents
+- Delete Remove and uninstall an agent
+- Get details for a single agent
+- Patch Update the site associated with agent
+- Post Force an agent to update and restart
+- Get all assets
+- Post Clear all tags across multiple assets based on a search query
+- Patch Update tags across multiple assets based on a search query
+- Delete Remove an asset
+- Get asset details
+- Patch Update asset comments
+- Patch Update asset tags
+- Delete Remove the current API key
+- Get API key details
+- Patch Rotate the API key secret and return the updated key
+- Get all services
+- Delete Remove a service
+- Get service details
+- Get all sites
+- Put Create a new site
+- Delete Remove a site and associated assets
+- Get site details
+- Patch Update a site definition
+- Put Import a scan data file into a site
+- Put Import a Nessus scan data file into a site
+- Put Create a scan task for a given site
+- Get all tasks last 1000
+- Get task details
+- Patch Update task parameters
+- Get Returns a temporary task change report data URL
+- Get Returns a temporary task scan data URL
+- Post Signal that a completed task should be hidden
+- Get Returns a temporary task log data URL
+- Post Signal that a task should be stopped or canceledThis will also remove recurring and scheduled tasks
+- Get all wireless LANs
+- Delete Remove a wireless LAN
+- Get wireless LAN details
+
+</details>
+
+<details>
+<summary><b>Public</b> (3 operations)</summary>
+
+- Get Returns latest agent version
+- Get Returns latest platform version
+- Get Returns latest scanner version
+
+</details>
 
 ---
 

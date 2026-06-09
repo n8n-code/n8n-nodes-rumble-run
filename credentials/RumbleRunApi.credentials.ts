@@ -8,7 +8,7 @@ import type {
 export class RumbleRunApi implements ICredentialType {
 	name = 'N8nDevRumbleRunApi';
 
-	displayName = 'rumble-run API';
+	displayName = 'Rumble Run API';
 
 	icon: Icon = { light: 'file:../nodes/RumbleRun/rumble-run.svg', dark: 'file:../nodes/RumbleRun/rumble-run.dark.svg' };
 
@@ -22,7 +22,7 @@ export class RumbleRunApi implements ICredentialType {
 			default: 'https://console.rumble.run/api/v1.0',
 			required: true,
 			placeholder: 'https://console.rumble.run/api/v1.0',
-			description: 'The base URL of your rumble-run API server',
+			description: 'The base URL of your Rumble Run API server',
 		},
 		{
 			displayName: 'API Key',

@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-rumble-run",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rumble Network Discovery is now runZero. Read the announcement. This API is frozen and no longer being update..",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-rumble-run",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "rumble-run"
